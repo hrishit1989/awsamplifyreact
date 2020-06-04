@@ -1,12 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import test from "./components/test";
+import Test from "./components/Test";
 
 function App() {
   return (
-    <div className="App">
-      123<test></test>
+    <div>
+      <Test></Test>
     </div>
   );
 }
