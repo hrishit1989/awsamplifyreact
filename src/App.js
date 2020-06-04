@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
 import Test from "./components/TestComponent";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Switch>
+    <Router>
       <Route
         path="/about"
         render={() => <h3>Select a task from left to view</h3>}
       />
-    </Switch>
+    </Router>
   );
 }
 
